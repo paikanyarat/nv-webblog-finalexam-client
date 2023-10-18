@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1>Show User</h1>
-    <p>id: {{ user.id }}</p>
-    <p>ชื่อ-นามสกุล: {{ user.name }} - {{ user.lastname }}</p>
+    <h1>Server Side Programming</h1>
+    <p>instructor: {{ user.instructor }}</p>
+    <p>description: {{ user.name }} - {{ user.lastname }}</p>
     <p>email: {{ user.email }}</p>
     <p>password: {{ user.password }}</p>
   </div>
